@@ -1,0 +1,101 @@
+.slide-bg-1{
+    background-image: url(../img/slide-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slide-bg-2{
+    background-image: url(../img/slide-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+html, body{
+    height: 100%;
+}
+.header-absulate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+   
+}
+.header-absulate ul li a{
+    color: #fff;
+}
+.homepage-slides, .homepage-slides div{
+    height: 100%;
+}
+.homepage-slides div.single-slide-wrapper, .homepage-slides div.single-slide-wrapper div, .homepage-slides div.owl-controls, .homepage-slides div.owl-controls div {
+    height: auto;
+}
+.homepage-slides .owl-nav div{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    font-size: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: .3s;
+}
+.homepage-slides:hover .owl-nav div{
+    left: 3%;
+    opacity: 1;
+}
+.homepage-slides:hover .owl-nav div.owl-next{
+    right: 3%;
+    left: auto;
+    opacity: 1;
+}
+.homepage-slides div.owl-next{
+    right: 0%;
+    left: auto;
+    opacity: 0;
+}
+.single-slide-item{
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 1;
+}
+.single-slide-item:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+    background: #2467ec;
+    background: -moz-linear-gradient(45deg, #2467ec 0%, #2fd8fb 100%);
+    background: -webkit-linear-gradient(45deg, #2467ec 0%, #2fd8fb 100%);
+    background: linear-gradient(45deg, #2467ec 0%, #2fd8fb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2467ec', endColorstr='#2fd8fb',GradientType=1 );
+}
+.single-slide-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.single-slide-wrapper h2{
+    font-size: 65px;
+    color: #fff;
+    line-height: 75px;
+}
+.video-play-btn{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: #24d5a1;
+    color: #fff;
+    line-height: 63px;
+    border-radius: 50%;
+    padding-left: 4px;
+    margin-top: 15px;
+}
