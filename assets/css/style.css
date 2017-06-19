@@ -1,0 +1,121 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+}
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    color: #999;
+}
+a{ transition: .3s}
+a:hover { text-decoration: none }
+.header-area{
+    padding: 20px 0;
+}
+.logo{}
+.mainmenu{
+    color: #888;
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu ul li{
+    position: relative;
+    display: inline-block;
+}
+.mainmenu ul li a{
+    display: block;
+    color: #888;
+    padding: 12px 20px;
+}
+.mainmenu ul li:hover a{
+    color: #ec4a71;
+}
+.boxed-btn, input[type=submit], button[type=submit]{
+    display: inline-block;
+    font-size: 14px;
+    background-color: #ec4a71;
+    color: #fff;
+    padding: 13px 22px;
+    border-radius: 2px;
+    border: none;
+    transition: .3s;
+}
+.boxed-btn:hover, input[type=submit]:hover, button[type=submit]:hover{
+    background-color: #999;
+    color: #fff;
+}
+.hero-area{
+    font-weight: 300;
+    padding: 150px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+.hero-area h1{
+    font-size: 40px;
+    max-width: 440px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.website-checker-form{
+    margin-top: 20px;
+}
+input[type=text],input[type=tel],input[type=email],input[type=passward],input[type=url],input[type=textarea],input[type=text]{
+    border: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+input[type=submit], button[type=submit]{
+    padding: 12px 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
