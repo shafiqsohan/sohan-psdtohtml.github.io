@@ -1,0 +1,129 @@
+.hero-area{
+    background-image: url(../img/hero-bg-2.png);
+    background-color: #359af3;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    line-height: 1.8;
+    padding: 80px 0;
+}
+.hero-area h1{
+    color: #fff;
+    font-size: 45px;
+    margin-top: 110px;
+}
+.boxed-btn{
+    background-color: #24d5a1;
+}
+.mainmenu ul li:hover a, .mainmenu ul li.active a, .widget ul li:hover a{
+    color: #24d5a1;
+}
+.social-links a:hover, .social-links a:hover i {
+  color: #24d5a1;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background-color: #24d5a1;
+}
+.marketer-text {
+    margin-top: 25px;
+}
+.marketer-text h3{
+    margin-bottom: 28px;
+}
+.marketer-text  p {
+    line-height: 30px;
+}
+.marketer-text .boxed-btn{
+    margin-top: 18px;
+}
+.single-service-item-2{
+    display: block;
+    height: 250px;
+    width: 100%;
+    background-color: #fbfbfb;
+    display: table;
+    padding: 30px;
+}
+.single-service-item-2:hover{
+    background: #22bffb;
+    background: -moz-linear-gradient(#22bffb 0%, #4783e8 100%);
+    background: -webkit-linear-gradient(#22bffb 0%, #4783e8 100%);
+    background: -o-linear-gradient(#22bffb 0%, #4783e8 100%);
+    background: linear-gradient(#22bffb 0%, #4783e8 100%);
+    filter: progid:DImageTransform.Microsoft.gradient( startColorstr='#22bffb', endColorstr='#4783e8', GradientType=0 );
+    animation-name: fadeIn;
+    animation-duration: .5s;
+}
+.single-service-item-2:hover .service-icon, .single-service-item-2:hover h3{
+    color: #fff;
+}
+.single-service-item-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.service-icon{
+    color: #2d9af7;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.testimonial-area{
+    padding-top: 70px;
+}
+.single-testimonial-item{
+    padding: 75px;
+}
+.tesimonial-content{
+    font-size: 18px;
+}
+
+.tesimonial-content span {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ddd;
+    color: dodgerblue;
+    display: inline-block;
+    font-size: 30px;
+    height: 30px;
+    left: 50%;
+    line-height: 48px;
+    margin-left: -15px;
+    position: absolute;
+    top: 1px;
+    width: 30px;
+}
+.testimonial-meta h4{
+    
+}
+.single-pricing-box{
+    padding: 0;
+    border-color: #f3f3f3;
+}
+.single-pricing-box:hover{
+    border-color: #f3f3f3;
+}
+.pricing-heading{
+    background-color: #fbfbfb;
+    border-bottom: 0;
+    padding: 30px 0;
+}
+.single-pricing-box:hover h4, .single-pricing-box:hover p{
+    color: #22bffb;
+}
+.pricing-count{
+    color: #22bffb;
+    color: -moz-linear-gradient(#22bffb 0%, #4783e8 100%);
+    color: -webkit-linear-gradient(#22bffb 0%, #4783e8 100%);
+    color: -o-linear-gradient(#22bffb 0%, #4783e8 100%);
+    color: linear-gradient(#22bffb 0%, #4783e8 100%);
+    filter: progid:DImageTransform.Microsoft.gradient( startColorstr='#22bffb', endColorstr='#4783e8', GradientType=0 );
+}
+.boxed-btn.big {
+  width: 100%;
+}
+/**** Scroll to Top ****/
+.gotoup {
+    background-color: #24d5a1;
+    color: #fff;
+}
+/**** Scroll to Top ****/
+

@@ -1,0 +1,157 @@
+.homepage-hero-area-4{
+    background-image: url(../img/hero-area-bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+    height: 100%;
+}
+.header-absulate {
+    top: 20px;
+}
+.single-slide-item:after{
+    background: #073b4c;
+    opacity: .3;
+}
+.single-slide-wrapper h2{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.website-checker-form{}
+.website-checker-form input{
+    background-color: #073b4c;
+    color: #fff;
+    border: none;
+}
+input[type="submit"], button[type="submit"] {
+    background-color: #06d6a0;
+}
+.menu-trigger{
+    font-size: 20px;
+}
+.search-trigger, .menu-trigger{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0; 
+    display: block;
+}
+.offcanvus-overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #073b4c;
+    opacity: 0;
+    visibility: hidden;
+}
+.offcanvus-overlay.active{
+    z-index: 98;
+    opacity: .8;
+    visibility: visible;
+}
+.offcanvus-menu .logo img{
+    width: 45px;
+    height: 35px;
+}
+.offcanvus-menu{
+    position: fixed;
+    top: 0;
+    left: -300px;
+    opacity: 0;
+    z-index: 100;
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 50px;
+    height: 100%;
+    width: 300px;
+    visibility: hidden;
+    transition: .3s;
+}
+.offcanvus-menu.active{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.offcanvus-menu a{
+    color: #373737;
+}
+.offcanvus-menu h2{
+    color: #06d6a0;
+    text-transform: uppercase;
+    
+}
+.offcanvus-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding: 190px 0;
+}
+.offcanvus-menu ul li{
+    
+}
+.offcanvus-menu ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 6px 0;
+    padding-top: 9px;
+    font-weight: 400;
+    transition: .3s;
+}
+.offcanvus-menu ul li:hover a{
+    color: #06d6a0;
+}
+.menu-close{
+    color: #373737;
+    position: absolute;
+    z-index: 101;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+    padding: 20px;
+    padding-right: 45px;
+    cursor: pointer;
+}
+.offcanvus-menu .social-links a{
+    padding-right: 30px;
+}
+.offcanvus-menu .social-links a:hover, .offcanvus-menu .social-links a:hover i{
+    color: #06d6a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
