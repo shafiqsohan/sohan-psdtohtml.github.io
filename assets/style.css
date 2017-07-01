@@ -35,7 +35,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 /*banner*/
 .banner{position: relative;}
-.banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.9); }
+.banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.5); }
 .banner .caption-wrapper{display: table;height: 100%;width: 100%;}
 .banner .caption-info{display: table-cell;vertical-align: middle;text-align: center;color: #fff;}
 .banner .caption-info h1{font:normal 4.5em Josefin Sans,Arial,Helvetica;text-transform:capitalize;}
@@ -99,7 +99,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 @media (max-width: 767px) {
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 
-	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
+	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{}
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
 	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
@@ -109,4 +109,13 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.grid.team div{margin: 0;padding: 0;}
 	figure.effect-chico figcaption {padding: 1.5em;}
 	.footer{padding-bottom: 2em;}
+}
+@media (max-width: 700px){
+    .img-circle profile{
+        display: none;
+    }
+    .caption-info img{
+        display: none;
+        opacity: 0;
+    }
 }
