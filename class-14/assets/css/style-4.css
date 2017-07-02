@@ -1,0 +1,331 @@
+h1, h2, h3, h4, h5, h6{font-weight: 500;}
+
+.homepage-hero-area-4{
+    background-image: url(../img/hero-area-bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+    height: 100%;
+}
+.header-absulate {
+    top: 20px;
+}
+.single-slide-item:after{
+    background: #073b4c;
+    opacity: .3;
+}
+.single-slide-wrapper h2{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.website-checker-form{}
+.website-checker-form input, .search-form input{
+    background-color: #073b4c;
+    color: #fff;
+    border: none;
+}
+input[type="submit"], button[type="submit"] {
+    background-color: #06d6a0;
+}
+.menu-trigger{
+    font-size: 20px;
+}
+.search-trigger, .menu-trigger{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0; 
+    display: block;
+}
+.search-form input{
+    
+}
+.search-btn-4{
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    top: 0px;
+    right: 0;
+    line-height: .5;
+    padding-top: 10px;
+    z-index: 99999;
+    background: #073b4c;
+    border: none;
+}
+.offcanvus-overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #073b4c;
+    opacity: 0;
+    visibility: hidden;
+}
+.offcanvus-overlay.active{
+    z-index: 98;
+    opacity: .8;
+    visibility: visible;
+}
+.offcanvus-menu .logo img{
+    width: 45px;
+    height: 35px;
+}
+.offcanvus-menu{
+    position: fixed;
+    top: 0;
+    left: -300px;
+    opacity: 0;
+    z-index: 100;
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 50px;
+    height: 100%;
+    width: 300px;
+    visibility: hidden;
+    transition: .3s;
+}
+.offcanvus-menu.active{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.offcanvus-menu a{
+    color: #373737;
+}
+.offcanvus-menu h2{
+    color: #06d6a0;
+    text-transform: uppercase;
+    
+}
+.offcanvus-menu ul{
+    padding: 20% 0;
+    margin: 0;
+    list-style: none; 
+    position: absolute;
+    top: 23%;
+}
+.offcanvus-menu ul li{
+    
+}
+.offcanvus-menu ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 6px 0;
+    padding-top: 9px;
+    font-weight: 400;
+    transition: .3s;
+}
+.offcanvus-menu ul li:hover a{
+    color: #06d6a0;
+}
+.menu-close{
+    color: #373737;
+    position: absolute;
+    z-index: 101;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+    padding: 20px;
+    padding-right: 45px;
+    cursor: pointer;
+}
+.offcanvus-menu .social-links{
+    position: absolute;
+    bottom: 0%;
+}
+.offcanvus-menu .social-links a{
+    padding-right: 30px;
+}
+.offcanvus-menu .social-links a:hover, .offcanvus-menu .social-links a:hover i{
+    color: #06d6a0;
+}
+.service-section{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 40px;
+    padding-top: 90px;
+    margin-top: 110px;
+}
+.service-section:before{
+    position: absolute;
+    content: "";
+    top: -60px;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background-image: url(../img/service-bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 6px 5px #f4f4f4;
+    border-radius: 3px;
+}
+.service-section:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 55%;
+    background: #f2f2f2;
+    z-index: -1;
+    box-shadow: 0px 0px 5px #f4f4f4;
+}
+.tile-gallery{
+    position: relative;
+    padding-right: 30px;
+}
+.tile-gallery img , .absolute-gallery-2{
+    box-shadow: 0 5px 5px #b1b1b1;
+    border-radius: 3px;
+}
+.absolute-gallery-1{
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+.absolute-gallery-2{
+    position: absolute;
+    left: -50px;
+    top: -60px;
+}
+.inline-btn{
+    padding-top: 15px;
+    display: inline-block;
+    color: #06d6a0;
+    font-weight: 700;
+}
+.service-box-2{
+    margin-bottom: 50px;
+    min-height: 203px;
+}
+.section-icon{
+    font-size: 30px;
+    color: #06d6a0;
+    margin-bottom: 15px;
+}
+
+.single-feature-item{
+    margin-top: 50px;
+    position: relative;
+    padding-left: 50px;
+}
+.feature-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #06d6a0;
+    font-size: 40px;
+    line-height: 40px;
+}
+.single-testimonial-box{
+    cursor: pointer;
+}
+.testimonial-text{
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+.testimonial-text::after {
+    background: #06d6a0 none repeat scroll 0 0;
+    bottom: -8px;
+    content: "";
+    height: 32px;
+    left: 2px;
+    position: absolute;
+    transform: skew(-9deg, 39deg);
+    width: 22px;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+.active .testimonial-text::after {
+    opacity: 1;
+    visibility: visible
+}
+.active .testimonial-text{
+    background-color: #06d6a0;
+    color: #fff;
+}
+.testimonial-text p:last-child{
+    margin-bottom: 0;
+}
+.quote-icon{
+    font-size: 180%;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+.testimonial-bottom{
+    margin-top: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.active .testimonial-bottom{
+    visibility: visible;
+    opacity: 1;
+}
+.author-details {
+    font-size: 14px;
+    display: inline-block;
+}
+.author-details strong{
+    display: block;
+    color: #373737;
+}
+.author-image{
+    border-radius: 50%;
+    margin-top: -25px;
+    margin-right: 10px;
+    width: 60px;
+}
+.cta-area .boxed-btn {
+    padding: 12px 46px;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background-color: #06d6a0;
+}
+.boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover {
+    background-color: #073b4c;
+}
+.site-footer.theme-4{
+    background-color: #073b4c;
+    color: #fff;
+}
+.theme-4 .footer-bottom{
+    background-color: #0f2e38;
+}
+.gotoup{
+    background-color: #06d6a0;
+}
+.theme-4 .widget ul li:hover a {
+    color: #06d6a0;
+}
+.theme-4 .widget ul li a, .theme-4 .widget-title {
+    color: #fff;
+}
+.theme-4 .news-form{
+    color: #999;
+    margin-top: 30px;
+}
+.single-service-item:hover {
+    border-color: #06d6a0;
+}
+.single-service-item:hover .service-readmore-btn, .single-service-item:hover i.zmdi, .single-service-item:hover h4, .social-links a:hover, .social-links a:hover i, .widget ul li:hover a {
+    color: #06d6a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
