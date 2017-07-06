@@ -1,0 +1,147 @@
+h1, h2, h3, h4, h5, h6{font-weight: 700;}
+body{
+    font-weight: 300;
+    line-height: 1.7;
+}
+/*===================
+| Header Css|
+=====================*/
+.header-absulate {
+    top: 20px;
+}
+/*===================
+| mainmenu Css|
+=====================*/
+.mainmenu ul li:hover a {
+  color: #06d6a0;
+}
+
+.hero-green h3, .how-works-area h2{
+    font-weight: 400;
+} 
+/*===================
+| Slide Css|
+=====================*/
+.single-slide-item:after{
+    background: #073b4c;
+    opacity: .3;
+}
+.single-slide-wrapper h2{
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 55px;
+}
+/*===================
+|  Carousel  css|
+====================*/
+.single-carousel{
+    height: 300px;
+}
+/*===================
+| Website Check Form Css|
+=====================*/
+.website-checker-form{
+    margin-top: 35px;
+}
+.website-checker-form input{
+    margin-right: 2%;
+    width: 26%;
+    border: none;
+}
+.website-checker-form input[type="submit"]{
+    margin-right: 0;
+    width: 13%;
+}
+.website-checker-form input, .search-form input{
+    background-color: #073b4c;
+    color: #fff;
+    border: none;
+}
+/*===================
+| Pricing Css|
+=====================*/
+.single-pricing-box:hover, .single-pricing-box:hover .pricing-heading {
+    border-color: #06d6a0;
+}
+.pricing-count {
+    color: #06d6a0;
+}
+/*===================
+| input+btn Css|
+=====================*/
+input[type="submit"], button[type="submit"] {
+    background-color: #06d6a0;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background-color: #06d6a0;
+}
+.boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover {
+    background-color: #073b4c;
+}
+.
+/*===================
+| Cta Css|
+=====================*/
+.cta-area .boxed-btn {
+    padding: 12px 46px;
+}
+/*===================
+| Services Css|
+=====================*/
+.single-service-item:hover .service-readmore-btn, .single-service-item:hover i.zmdi, .single-service-item:hover h4, .social-links a:hover, .social-links a:hover i, .widget ul li:hover a, .loademore-btn, .loademore-btn i{
+    color: #06d6a0;
+}
+.single-service-item:hover {
+  border-color: #06d6a0;
+}
+/*===================
+| FAQ Css|
+=====================*/
+.faq-area h3{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.traffic-faq .panel-heading{
+    padding: 0;
+}
+.traffic-faq .panel-heading a{
+    color: #333;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+.traffic-faq .panel-heading a:after{
+    content: "+";
+    float: right;
+    font-size: 25px;
+    margin-top: -5px;
+}
+.traffic-faq .panel-heading a[aria-expanded="true"]:after{
+    content: "-";
+    font-size: 30px;
+    margin-top: -10px;
+}
+.traffic-faq .panel-heading a:focus{
+    text-decoration: none;
+}
+.traffic-faq .panel-default .panel-heading {
+    background-color: transparent;
+}
+.traffic-faq .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-width: 0px;
+}
+.traffic-faq.panel-group .panel+.panel {
+    margin-top: -1px;
+    box-shadow: 0 0 0;
+}
+
+
+
+/*===================
+| Scroll Top Css|
+=====================*/
+.gotoup{
+    background-color: #06d6a0;
+}
