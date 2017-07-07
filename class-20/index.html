@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Dropdown Menu </title>
+
+        <!----- Bootstrap Css ------>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      
+        <style>
+            a:hover{
+                text-decoration: none;
+            }
+            .mainmenu-area ul{
+                background: #185377;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            .mainmenu-area li{
+                display: inline-block;
+            }
+            .mainmenu-area li a{
+                color: #fff;
+                display: block;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 700;
+                padding: 15px;
+            }
+            /* Dropdown menu */
+            
+            .mainmenu-area li:hover > a{
+                background-color: deepskyblue;
+            }
+            .mainmenu-area li{
+                position: relative;
+            }
+            .mainmenu-area li ul{
+                position: absolute;
+                top: 32px;
+                width: 200px;
+                z-index: 2;
+                text-transform: none;
+                opacity: 0;
+                visibility: hidden;
+                transition: .3s;
+            }
+            .mainmenu-area li ul a{
+                text-transform: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .mainmenu-area li ul li{
+                display: block;
+            }
+            .mainmenu-area li:hover ul{
+                opacity: 1;
+                visibility: visible;
+                top: 52px;
+            }
+            /* Second Level dropdown menu */
+            .mainmenu-area li:hover ul ul{
+                visibility: hidden;
+                opacity: 0;
+            }
+            .mainmenu-area ul ul li ul{
+                left: 200px;
+            }
+            .mainmenu-area ul ul li:hover > ul{
+                top: 0;
+                opacity: 1;
+                visibility: visible;
+            }
+           
+        </style>
+    </head>
+    <body>
+        
+        <div class="mainmenu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mainmenu">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li>
+                                    <a href="">Service</a>
+                                    <ul>
+                                        <li><a href="">Service 1</a></li>
+                                        <li><a href="">Service 1</a></li>
+                                        <li><a href="">Service 1</a></li>
+                                        <li><a href="">Service More</a>
+                                            <ul>
+                                                <li><a href="">Service 2</a></li>
+                                                <li><a href="">Service More</a>
+                                                    <ul>
+                                                        <li><a href="">Service 2</a></li>
+                                                        <li><a href="">Service MOre</a>
+                                                            <ul>
+                                                                <li><a href="">Service 3</a></li>
+                                                                <li><a href="">Service 3</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="">Service 2</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="">Service 2</a></li>
+                                                <li><a href="">Service 2</a></li>
+                                                <li><a href="">Service 2</a></li>
+                                                <li><a href="">Service 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Service 1</a></li>
+                                        <li><a href="">Service 1</a></li>
+                                        <li><a href="">Service 1</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
