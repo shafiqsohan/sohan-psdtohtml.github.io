@@ -13,6 +13,10 @@ h3{
 .mainmenu li:hover > a, .mainmenu ul li.active a, .widget ul li:hover a{
     color: #24d5a1;
 }
+.mainmenu li:hover li:hover > a{
+    background-color: #24d5a1;
+    color: #fff;
+}
 /*==============
 | Hero Area  Css|
 ================*/

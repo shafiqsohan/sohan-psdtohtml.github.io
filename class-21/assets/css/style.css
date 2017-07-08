@@ -292,7 +292,7 @@ a:hover { text-decoration: none }
 .mainmenu li ul{
     position: absolute;
     top: 90px;
-    left: 0;
+    left: auto;
     width: 250px;
     background: #fff;
     text-align: left;
@@ -303,7 +303,7 @@ a:hover { text-decoration: none }
     box-shadow: 0 0 5px #f2f2f2;
 }
 .mainmenu li:hover ul{
-    top: 70px;
+    top: 50px;
     opacity: 1;
     visibility: visible;
 }
@@ -314,7 +314,7 @@ a:hover { text-decoration: none }
     padding: 7px 15px;
 }
 .mainmenu li:hover li:hover > a{
-    background-color: #24d5a1;
+    background-color: #ec4a71;
     color: #fff;
 }
 .mainmenu li.mega-menu{
@@ -333,24 +333,8 @@ a:hover { text-decoration: none }
     transition: .3s;
     z-index: -1;
 }
-
-
-
-
-
-
-/*
-      26 mins
-*/
-
-
-
-
-
-
-
 .mainmenu li.mega-menu:hover .mega-menu-wrapper{
-    top: 70px;
+    top: 50px;
     opacity: 1;
     visibility: visible;
     z-index: 99;
@@ -359,16 +343,40 @@ a:hover { text-decoration: none }
     position: relative;
     left: auto;
     top: auto;
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
     padding: 0;
     width: auto;
-    z-index: 999;
+    z-index: 9;
     box-shadow: 0 0 0;
+}
+.mainmenu li.mega-menu:hover ul{
+    opacity: 1;
+    visibility: visible;
 }
 .mega-menu-wrapper .boxed-btn{
     color: #fff;
 }
+.mega-menu-wrapper h5{
+    padding-left: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.menu-cta{
+    text-align: center;
+}
+.menu-cta h4{
+    line-height: 29px;
+}
+.menu-cta span{
+    color: #24d5a1;
+    text-transform: uppercase;
+}
+.header-absulate .mainmenu li li a{
+    color: #666;
+}
+
 /*=====================
 |Off-Canvus Menu+Search CSS |
 ======================*/

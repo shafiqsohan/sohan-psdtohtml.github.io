@@ -12,10 +12,14 @@ body{
 /*===================
 | mainmenu Css|
 =====================*/
-.mainmenu ul li:hover a {
-  color: #06d6a0;
+.mainmenu li:hover > a, .mainmenu ul li.active a, .widget ul li:hover a{
+    color: #24d5a1;
 }
 
+.mainmenu li:hover li:hover > a{
+    background-color: #24d5a1;
+    color: #fff;
+}
 .hero-green h3, .how-works-area h2{
     font-weight: 400;
 } 

@@ -5,11 +5,20 @@ body, html{
     height: 100%;
 }
 /*===================
-| Header Area Css|
+| Mainmenu Area Css|
 =====================*/
 .mainmenu ul li a{
     color: #fff;
 }
+.mainmenu li:last-child ul{
+    left: auto;
+    right: 0;
+}
+.mainmenu li:hover li:hover > a{
+    background-color: #24d5a1;
+    color: #fff;
+}
+
 /*======================
 | Video Play Btn css|
 =======================*/
