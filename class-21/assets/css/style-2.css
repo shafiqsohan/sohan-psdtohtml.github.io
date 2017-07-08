@@ -16,6 +16,9 @@ h3{
 .mainmenu li:hover li:hover > a{
     background-color: #24d5a1;
 }
+.menu-cta span{
+    color: #ec4a71;
+}
 /*==============
 | Hero Area  Css|
 ================*/

@@ -20,6 +20,9 @@ body{
     background-color: #24d5a1;
     color: #fff;
 }
+.menu-cta span{
+    color: #ec4a71;
+}
 .hero-green h3, .how-works-area h2{
     font-weight: 400;
 } 
