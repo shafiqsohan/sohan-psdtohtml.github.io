@@ -1,0 +1,58 @@
+body{
+    line-height: 1.7;
+}
+body, html{
+    height: 100%;
+}
+/*===================
+| Header Area Css|
+=====================*/
+.mainmenu ul li a{
+    color: #fff;
+}
+/*======================
+| Video Play Btn css|
+=======================*/
+.video-play-btn{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: #24d5a1;
+    color: #fff;
+    line-height: 63px;
+    border-radius: 50%;
+    padding-left: 4px;
+    margin-top: 15px;
+}
+/*===================
+|  Carousel  css|
+====================*/
+.single-carousel{
+    height: 300px;
+}
+/*========================
+| Website Checker Form css|
+=========================*/
+.website-checker-form input{
+    margin-right: 2%;
+    width: 26%;
+}
+.website-checker-form input[type="submit"]{
+    margin-right: 0;
+    width: 13%;
+}
+/*========================
+| Single Service Area Css|
+=========================*/
+.single-service-item{
+    margin-bottom: 0;
+}
+.single-service-item:hover{
+    border-color: #06d6a0;
+}
+.single-service-item:hover h4, .single-service-item:hover i.zmdi, .single-service-item:hover .service-readmore-btn {
+    color: #06d6a0;
+}
+/*=====================
+| Case Study Area Css|
+======================*/
