@@ -8,7 +8,7 @@ h3{
     background-color: #24d5a1;
 }
 /*=====================
-|  Header Area CSS    |
+|  Mainmenu Area CSS    |
 ======================*/
 .mainmenu li:hover > a, .mainmenu ul li.active a, .widget ul li:hover a{
     color: #24d5a1;
