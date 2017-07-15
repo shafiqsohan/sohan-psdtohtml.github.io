@@ -1,3 +1,26 @@
+/*
+======================================
+======================================
+
+@File: Traffic Theme Styles
+
+* This file contains the styling for the actual theme, 
+this is the file you need to edit to change the look 
+of the theme.
+
+This files contents are outlined below
+======================================
+======================================
+    *** CSS Index ***
+    -----------------
+    ** - Default CSS
+    ** - Mainmenu Area CSS
+    ** - Website Checker Form CSS
+    ** - Single Service CSS
+    ** - btn + input CSS
+======================================
+*/
+
 body {
     line-height: 1.7;
 }
@@ -5,10 +28,15 @@ body,
 html {
     height: 100%;
 }
+.single-carousel {
+    height: 300px;
+}
 /*===================
-| Mainmenu Area Css|
+| Mainmenu Area CSS|
 =====================*/
-
+.mainmenu li:hover > a {
+  color: #24d5a1;
+}
 .mainmenu ul li a {
     color: #fff;
 }
@@ -23,15 +51,8 @@ html {
 .menu-cta span {
     color: #24d5a1;
 }
-/*===================
-|  Carousel  css|
-====================*/
-
-.single-carousel {
-    height: 300px;
-}
 /*========================
-| Website Checker Form css|
+| Website Checker Form CSS|
 =========================*/
 
 .website-checker-form input {
@@ -43,7 +64,7 @@ html {
     width: 13%;
 }
 /*========================
-| Single Service Area Css|
+| Single Service CSS|
 =========================*/
 
 .single-service-item {
@@ -58,5 +79,9 @@ html {
     color: #06d6a0;
 }
 /*=====================
-| Case Study Area Css|
+| btn + input CSS |
 ======================*/
+
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background-color: #06d6a0;
+}

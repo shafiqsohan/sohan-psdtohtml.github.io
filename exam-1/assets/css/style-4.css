@@ -1,24 +1,55 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-}
+/*
+======================================
+======================================
+
+@File: Traffic Theme Styles
+
+* This file contains the styling for the actual theme, 
+this is the file you need to edit to change the look 
+of the theme.
+
+This files contents are outlined below
+======================================
+======================================
+    *** CSS Index ***
+    -----------------
+    ** - Default CSS
+    ** - Header CSS
+    ** - Mainmenu CSS
+    ** - Hero Area CSS
+    ** - Single Slide CSS
+    ** - input + btn CSS
+    ** - Website Check Form CSS
+    ** - Pricing CSS
+    ** - Single Services CSS
+======================================
+*/
+
 body {
-    font-weight: 300;
     line-height: 1.7;
 }
+.section title h3{
+    font-size: 26px;
+}
+.about-traffic-area-4 h3, 
+.service-box-2 h4,  
+.feature-area h3, 
+.feature-area h4,
+.section-title h2{
+    font-weight: 700;
+}
+.single-carousel {
+    height: 300px;
+}
 /*===================
-| Header Css|
+| Header CSS|
 =====================*/
 
 .header-absulate {
     top: 20px;
 }
 /*===================
-| mainmenu Css|
+| Mainmenu CSS |
 =====================*/
 
 .mainmenu li:hover > a,
@@ -38,7 +69,7 @@ body {
     font-weight: 400;
 }
 /*===================
-| Hero Css|
+| Hero Area CSS|
 =====================*/
 
 .hero-form {
@@ -46,7 +77,7 @@ body {
     box-shadow: 10px 10px 2px #f7f7f7;
 }
 /*===================
-| Slide Css|
+| Single Slide CSS |
 =====================*/
 
 .single-slide-item {
@@ -65,14 +96,24 @@ body {
     line-height: 55px;
 }
 /*===================
-|  Carousel  css|
-====================*/
-
-.single-carousel {
-    height: 300px;
+| input + btn CSS|
+=====================*/
+.boxed-btn,
+input[type="submit"],
+button[type="submit"] {
+    background-color: #06d6a0;
+    color: #fff;
+}
+.boxed-btn:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #073b4c;
+}
+.cta-area .boxed-btn {
+    padding: 12px 46px;
 }
 /*===================
-| Website Check Form Css|
+| Website Check Form CSS|
 =====================*/
 
 .website-checker-form {
@@ -86,6 +127,8 @@ body {
 .website-checker-form input[type="submit"] {
     margin-right: 0;
     width: 13%;
+    background-color: #06d6a0;
+    padding: 10px;
 }
 .website-checker-form input,
 .search-form input {
@@ -94,7 +137,7 @@ body {
     border: none;
 }
 /*===================
-| Pricing Css|
+| Pricing CSS|
 =====================*/
 
 .single-pricing-box:hover,
@@ -105,33 +148,7 @@ body {
     color: #06d6a0;
 }
 /*===================
-| input+btn Css|
-=====================*/
-
-input[type="submit"],
-button[type="submit"] {
-    background-color: #06d6a0;
-}
-.boxed-btn,
-input[type="submit"],
-button[type="submit"] {
-    background-color: #06d6a0;
-}
-.boxed-btn:hover,
-input[type="submit"]:hover,
-button[type="submit"]:hover {
-    background-color: #073b4c;
-}
-.
-/*===================
-| Cta Css|
-=====================*/
-
-.cta-area .boxed-btn {
-    padding: 12px 46px;
-}
-/*===================
-| Services Css|
+| Single Services CSS|
 =====================*/
 
 .single-service-item:hover .service-readmore-btn,

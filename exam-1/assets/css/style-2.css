@@ -1,8 +1,35 @@
+/*
+======================================
+======================================
+
+@File: Traffic Theme Styles
+
+* This file contains the styling for the actual theme, 
+this is the file you need to edit to change the look 
+of the theme.
+
+This files contents are outlined below
+======================================
+======================================
+    *** CSS Index ***
+    -----------------
+    ** - Input [All] + btn CSS
+    ** - Mainmenu Area CSS
+    ** - Hero Area  CSS
+    ** - Services Area  CSS
+    ** - CTA Area CSS
+    ** - Testimonial Area CSS
+    ** - Pricing Area  CSS
+    ** - Social Links  CSS
+=======================================
+*/
+
+/*** Default CSS ***/
 h3 {
     font-size: 22px;
 }
 /*========================
-| Input [All] + btn Css|
+| Input [All] + btn CSS|
 =========================*/
 
 .boxed-btn,
@@ -26,7 +53,7 @@ button[type="submit"] {
     color: #24d5a1;
 }
 /*==============
-| Hero Area  Css|
+| Hero Area  CSS|
 ================*/
 
 .hero-area {
@@ -41,7 +68,7 @@ button[type="submit"] {
 .hero-area h1 {
     color: #fff;
     font-size: 45px;
-    margin-top: 110px;
+    margin-top: 180px;
 }
 .owl-dots div.active {
     background: #24d5a1;
@@ -50,7 +77,7 @@ button[type="submit"] {
     margin-top: 0;
 }
 /*========================
-| Services Area  Css|
+| Services Area  CSS|
 =========================*/
 
 .service-icon {
@@ -61,7 +88,7 @@ button[type="submit"] {
     font-size: 45px;
 }
 /*========================
-| CTA Area  Css|
+| CTA Area CSS|
 =========================*/
 
 .cta-area.theme-4 h1,
@@ -70,7 +97,7 @@ button[type="submit"] {
     font-weight: 700
 }
 /*========================
-| Testimonial Area Css|
+| Testimonial Area CSS|
 =========================*/
 
 .testimonial-area {
@@ -83,7 +110,7 @@ button[type="submit"] {
     font-size: 18px;
 }
 /*========================
-| Pricing Areal  Css|
+| Pricing Area  CSS|
 =========================*/
 
 .single-pricing-box {
@@ -112,18 +139,10 @@ button[type="submit"] {
     filter: progid: DImageTransform.Microsoft.gradient( startColorstr='#22bffb', endColorstr='#4783e8', GradientType=0);
 }
 /*========================
-| Social Links  Css|
+| Social Links  CSS |
 =========================*/
 
 .social-links a:hover,
 .social-links a:hover i {
     color: #24d5a1;
-}
-/*========================
-| Scroll to Top  Css|
-=========================*/
-
-.gotoup {
-    background-color: #24d5a1;
-    color: #fff;
 }

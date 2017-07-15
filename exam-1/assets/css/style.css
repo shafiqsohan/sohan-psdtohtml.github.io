@@ -30,10 +30,12 @@ This files contents are outlined below
     ** - CTA Area CSS
     ** - Pricing Area CSS
     ** - Blog Area CSS
+    ** - Contact Area  CSS
     ** - Company Logo CSS
     ** - Footer Area CSS
 =======================================
 */
+
 /*** Default CSS ***/
 
 @import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
@@ -127,8 +129,9 @@ a:hover {
 .section-title {
     padding-bottom: 100px;
     text-align: center;
+    font-weight: 400;
 }
-.section-title h2 {
+.section-title h2, .how-works-area h2 {
     font-size: 28px;
 }
 .section-gray {
@@ -484,9 +487,14 @@ a:hover {
     margin: 0;
     list-style: none;
     position: absolute;
-    top: 23%;
+    top: 15%;
 }
-.offcanvus-menu ul li {} .offcanvus-menu ul li a {
+.mainmenu.offcanvus-menu ul li{
+    display: block;
+    position: relative;
+    z-index: 8;
+}
+.mainmenu.offcanvus-menu ul li a {
     display: block;
     font-size: 20px;
     padding: 6px 0;
@@ -496,7 +504,36 @@ a:hover {
     transition: .3s;
     color: #373737;
 }
-.offcanvus-menu ul li:hover a {
+.mainmenu.offcanvus-menu li > ul{
+    left: 150px;
+    top: -5px;
+    position: absolute;
+    z-index: 9;
+}
+.mainmenu.offcanvus-menu li:hover > ul {
+    left: 110px;
+    top: -5px;
+    z-index: 9;
+}
+.mainmenu.offcanvus-menu li.mega-menu > ul {
+    top: -200px;
+    width: 750px;
+}
+.mainmenu.offcanvus-menu li.mega-menu:hover > ul {
+    top: -200px;
+}
+.mainmenu.offcanvus-menu li.mega-menu ul li a{
+    font-size: 16px;
+}
+.offcanvus-menu .menu-cta .boxed-btn {
+    color: #fff;
+    font-size: 16px;
+}
+.mainmenu.offcanvus-menu ul ul li a {
+    padding: 6px 14px 2px;
+    font-size: 16px;
+}
+.offcanvus-menu ul li:hover > a {
     color: #06d6a0;
 }
 .menu-close {
@@ -536,7 +573,7 @@ a:hover {
     cursor: pointer;
     font-size: 20px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     top: 0px;
     right: 0;
     line-height: .5;
@@ -599,7 +636,7 @@ a:hover {
 }
 .hero-form-header h3 {
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
 }
 .hero-area .website-checker-form input[type="url"] {
@@ -760,7 +797,7 @@ button[type=submit] {
     border: none;
     -webkit-transition: .3s;
     transition: .3s;
-    font-weight: 500;
+    font-weight: 400;
 }
 input[type=submit] {
     padding: 12px 30px;
@@ -791,7 +828,7 @@ button[type=submit]:hover {
     cursor: pointer;
     font-size: 20px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     top: 11px;
     right: 0;
     z-index: 99999;
@@ -804,7 +841,7 @@ button[type=submit]:hover {
     cursor: pointer;
     font-size: 20px;
     color: #000;
-    font-weight: 500;
+    font-weight: 600;
     top: 0px;
     right: 0;
     line-height: .5;
@@ -951,8 +988,8 @@ button[type=submit]:hover {
 .about-traffic-area .boxed-btn {
     margin-top: 25px;
 }
-.how-works-area h2 {
-    font-size: 28px;
+.about-traffic-area-4 h3, .feature-area h3{
+    font-size: 26px
 }
 .how-works-area a.boxed-btn {
     margin-top: 30px;
@@ -1074,10 +1111,11 @@ button[type=submit]:hover {
 .case-study-more-2,
 .boxed-btn-white {
     background-color: #fff;
-    padding: 13px;
+    padding: 10px 20px;
     position: relative;
     color: #333;
     font-size: 14px;
+    font-weight: 400;
     border-radius: 3px;
     -webkit-transition: .3s;
     transition: .3s;
@@ -1089,6 +1127,10 @@ button[type=submit]:hover {
 .single-cse-study-2:hover .case-study-more-2 {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.case-study-more-2:hover {
+    background-color: #333;
+    color: #fff
 }
 /*Carousel Start*/
 
@@ -1116,7 +1158,7 @@ button[type=submit]:hover {
     background-color: rgba(6, 214, 160, 0.89);
 }
 .theme-green .cse-study-wrapper h4 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .theme-green .owl-dots div.active {
     background: #06d6a0;
@@ -1360,6 +1402,7 @@ button[type=submit]:hover {
 .cta-area h2 {
     padding-top: 16px;
     margin-bottom: 0;
+    font-size: 28px;
 }
 .cta-area.color {
     background: #06bcfe;
@@ -1383,6 +1426,10 @@ button[type=submit]:hover {
 .broudcumb-area h1 {
     margin-bottom: 20px;
     color: #fff;
+    font-weight: 700;
+}
+.cta-area.theme-5 h1{
+    font-weight: 700;
 }
 .cta-area.theme-5 {
     height: 300px;
@@ -1449,6 +1496,7 @@ button[type=submit]:hover {
 }
 .cta-area.theme-3 h1 {
     color: #fff;
+    font-size: 40px;
 }
 .cta-area.theme-3 p {
     margin-bottom: 40px;
@@ -1457,7 +1505,7 @@ button[type=submit]:hover {
     color: #000;
     padding: 10px 40px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .cta-area.theme-3 .boxed-btn-white:hover {
     color: #fff;
@@ -1614,9 +1662,14 @@ p.blog-meta {
 | Contact Area  CSS|
 ================*/
 
-.contact-area input,
-.contact-area textarea {
+.contact-form input,
+.contact-form textarea {
     background: #fbfbfb;
+    color: #373737;
+}
+.contact-form input:focus , .contact-form textarea:focus {
+    box-shadow: 0 5px 5px #f0f0f0;
+    border-color: #fbfbfb;
 }
 .contact-info {
     margin-bottom: 40px;
@@ -1684,7 +1737,7 @@ p.blog-meta {
 }
 .footer-wid-title {
     font-weight: 400;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 .footer-wid ul {
     list-style: none;
@@ -1703,7 +1756,7 @@ p.blog-meta {
 }
 .footer-bottom {
     padding: 20px 0;
-    margin-bottom: -20px;
+    margin-top: -30px;
     background-color: #f7f7f7;
 }
 .site-footer-3 ul li {
@@ -1711,9 +1764,12 @@ p.blog-meta {
 }
 .site-footer-3 ul li a {
     display: block;
-    font-weight: 500;
+    font-weight: 400;
     padding: 15px;
     padding-bottom: 0;
+}
+.site-footer-3 ul li:hover a{
+    color: #06d6a0;
 }
 .site-footer-3 .social-links {
     margin-top: 15px;
@@ -1744,6 +1800,10 @@ p.blog-meta {
 }
 .theme-4 .footer-wid ul li:hover a {
     color: #06d6a0;
+}
+.theme-4 .footer-wid-title{
+    font-size: 20px;
+    font-weight: 400;
 }
 .theme-4 .footer-wid ul li a,
 .theme-4 .footer-wid-title {
