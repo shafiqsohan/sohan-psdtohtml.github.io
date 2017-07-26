@@ -1,0 +1,90 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .header-area .boxed-btn {
+    padding: 10px 15px;
+}
+    .boxed-btn, input[type=submit], button[type=submit] {
+    font-size: 13px;
+}
+    .single-service-item{
+        padding: 20px 5px;
+    }
+    .mainmenu li a {
+    padding: 12px 18px;
+}
+    .footer-wid input[type="text"]{
+        width: 158px;
+    }
+    input[type=submit] {
+    padding: 12px 18px;
+}
+    .footer-wid-title{
+        font-size: 16px;
+    }
+    .footer-wid ul li a{
+        font-size: 16px;
+    }
+    .hero-area h1{
+        font-size: 40px;
+    }
+    .single-service-item-2{
+        height: 220px;
+    }
+    .single-testimonial-item {
+    padding: 75px 0px;
+}
+    .single-cse-study-2{
+        height: 270px;
+    }
+    .single-slide-wrapper h2 {
+    font-size: 50px;
+    line-height: 62px;
+}
+    .padding-top-60{
+        padding-top: 30px;
+    }
+    .single-carousel{
+        height: 290px;
+    }
+    .cse-study-wrapper{
+        padding: 20px;
+    }
+    .blog-thumb-wrapper{
+        height: 200px;
+    }
+    .site-footer-3 ul li a {
+        padding: 13px;
+}
+    .service-section{
+        padding-top: 40px;
+    }
+    .service-section:before{
+        top: -46px;
+        width: 48%;
+    }
+    .tesimonial-content{
+        font-size: 20px;
+    }
+    .box-case-study .single-carousel{
+        height: 200px;
+    }
+    .padding-top-80{
+        padding-top: 10px;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
