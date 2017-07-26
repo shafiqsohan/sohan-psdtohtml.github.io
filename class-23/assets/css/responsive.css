@@ -72,9 +72,6 @@
     .padding-top-80{
         padding-top: 10px;
     }
-    .single-pricing-box {
-        padding: 35px 38px;
-    }
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 

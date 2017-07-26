@@ -1530,9 +1530,12 @@ button[type=submit]:hover {
 .pricing-area {
     text-align: center;
 }
+.home-1 .single-pricing-box{
+    padding: 35px 35px;
+} 
 .single-pricing-box {
     border: 1px solid #f7f7f7;
-    padding: 35px 50px;
+    padding: 35px 0px;
     -webkit-transition: .3s;
     transition: .3s;
 }
