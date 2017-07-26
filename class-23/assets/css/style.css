@@ -39,6 +39,7 @@ This files contents are outlined below
 /*** Default CSS ***/
 
 @import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
 .alignleft {
     float: left;
     margin-right: 15px;
