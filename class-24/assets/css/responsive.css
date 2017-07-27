@@ -1,0 +1,398 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .header-area .boxed-btn {
+    padding: 10px 15px;
+}
+    .boxed-btn, input[type=submit], button[type=submit] {
+    font-size: 13px;
+}
+    .single-service-item{
+        padding: 20px 5px;
+    }
+    .mainmenu li a {
+    padding: 12px 18px;
+}
+    .footer-wid input[type="text"]{
+        width: 158px;
+    }
+    input[type=submit] {
+    padding: 12px 18px;
+}
+    .footer-wid-title{
+        font-size: 16px;
+    }
+    .footer-wid ul li a{
+        font-size: 16px;
+    }
+    .hero-area h1{
+        font-size: 40px;
+    }
+    .single-service-item-2{
+        height: 220px;
+    }
+    .single-testimonial-item {
+    padding: 75px 0px;
+}
+    .single-cse-study-2{
+        height: 270px;
+    }
+    .single-slide-wrapper h2 {
+    font-size: 50px;
+    line-height: 62px;
+}
+    .padding-top-60{
+        padding-top: 30px;
+    }
+    .single-carousel{
+        height: 290px;
+    }
+    .cse-study-wrapper{
+        padding: 20px;
+    }
+    .blog-thumb-wrapper{
+        height: 200px;
+    }
+    .site-footer-3 ul li a {
+        padding: 13px;
+}
+    .service-section{
+        padding-top: 40px;
+    }
+    .service-section:before{
+        top: -46px;
+        width: 48%;
+    }
+    .tesimonial-content{
+        font-size: 20px;
+    }
+    .box-case-study .single-carousel{
+        height: 200px;
+    }
+    .padding-top-80{
+        padding-top: 10px;
+    }
+}
+/*======================
+Tablet Layout: 768px. 
+=======================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .traffic-content-block{
+        padding: 75px 0;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mainmenu, .search-btn{
+        display: none;
+    }
+
+    .offcanvus-menu.mainmenu{
+        display: block;
+    }
+    .header-area .text-right{
+        text-align: center;
+    }
+    .hero-area{
+        padding: 50px 0;
+    }
+    .hero-area .text-right{
+        text-align: left;
+    }
+    .hero-area .website-checker-form {
+    margin: 30px 0;
+}
+    .mobile-padding-fix{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .cta-area, .cta-area .text-right{
+        text-align: center;
+    }
+    .cta-area .boxed-btn{
+        margin-top: 20px;
+    }
+    .social-links li{
+        width: 19.50%;
+    }
+    .margin-only-mobile{
+        height: 50px;
+    }
+    .broudcumb-area {
+    padding: 75px 0;
+    height: 220px;
+        font-size: 18px;
+}
+    .broudcumb-area h1{
+        margin-bottom: 10px;
+    }
+    .hero-green .padding-left-40{
+        padding-left: 0;
+    }
+    .padding-top-80.padding-left-40{
+        padding-left: 0;
+    }
+    .padding-top-60{
+        padding-top: 0;
+    }
+    .hero-area h1{
+        margin-top: 0;
+        max-width: inherit;
+    }
+    .hero-form{
+        margin-top: 50px;
+    }
+    .single-service-item-2{
+        margin: 15px 0;
+    }
+    .home-2 .single-cse-study-2{
+        height: 210px;
+    }
+    .section-title{
+        padding-bottom: 50px;
+    }
+    .single-pricing-box, .single-blog-item, .single-service-item{
+        margin: 30px 0;
+    }
+    .single-slide-wrapper h2 {
+        font-size: 35px;
+        line-height: 35px;
+}
+    .website-checker-form input[type="submit"]{
+        padding: 12px 13px;
+    }
+    .site-footer-3, .site-footer-3 .text-right{
+        text-align: center;
+    }
+    .footer-bottom-3{
+        font-size: 13px;
+    }
+    .footer-bottom-3 ul li a{
+        padding: 0 10px;
+    }
+    .absolute-gallery-1 {
+    position: relative;
+    top: auto;
+}
+    .tile-gallery.text-right{
+        text-align: center;
+    }
+    .service-section:before{
+        display: none;
+    }
+    .service-section:after{
+        width: 100%;
+    }
+    .service-section{
+        margin-top: 0;
+    }
+    .service-box-2{
+        min-height: auto;
+    }
+    .cta-area.theme-4{
+        height: 300px;
+        padding-top: 55px;
+    }
+    .testimonial-text{
+        padding: 10px;
+    }
+    .col-md-3.padding-0{
+        padding: 0 30px;
+    }
+    .cta-area.theme-5{
+        height: 220px;
+        font-size: 14px;
+    }
+    .cta-area{
+        padding-top: 35px
+    }
+    .cta-area.theme-4 h1, .cta-area.theme-5 h1, .broudcumb-area h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+    .cta-area.color{
+        height: 200px;
+    }
+    .cta-area.color h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+    .spacer-200{
+        max-height: 0px;
+    }
+    .about-traffic-area-4 .text-right{
+        text-align: center;
+    }
+    .author-box h4 {
+    margin-top: 20px;
+}
+
+
+}
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+
+    .traffic-content-block{
+        padding: 75px 0;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mainmenu, .search-btn{
+        display: none;
+    }
+
+    .offcanvus-menu.mainmenu{
+        display: block;
+    }
+    .header-area .text-right{
+        text-align: center;
+    }
+    .hero-area{
+        padding: 50px 0;
+    }
+    .hero-area .text-right{
+        text-align: left;
+    }
+    .hero-area .website-checker-form {
+    margin: 30px 0;
+}
+    .mobile-padding-fix{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .cta-area, .cta-area .text-right{
+        text-align: center;
+    }
+    .cta-area .boxed-btn{
+        margin-top: 20px;
+    }
+    .social-links li{
+        width: 19.50%;
+    }
+    .margin-only-mobile{
+        height: 50px;
+    }
+    .broudcumb-area {
+    padding: 75px 0;
+    height: 220px;
+        font-size: 18px;
+}
+    .broudcumb-area h1{
+        margin-bottom: 10px;
+    }
+    .hero-green .padding-left-40{
+        padding-left: 0;
+    }
+    .padding-top-80.padding-left-40{
+        padding-left: 0;
+    }
+    .padding-top-60{
+        padding-top: 0;
+    }
+    .hero-area h1{
+        margin-top: 0;
+        max-width: inherit;
+    }
+    .hero-form{
+        margin-top: 50px;
+    }
+    .single-service-item-2{
+        margin: 15px 0;
+    }
+    .home-2 .single-cse-study-2{
+        height: 210px;
+    }
+    .section-title{
+        padding-bottom: 50px;
+    }
+    .single-pricing-box, .single-blog-item, .single-service-item{
+        margin: 30px 0;
+    }
+    .single-slide-wrapper h2 {
+        font-size: 35px;
+        line-height: 35px;
+}
+    .website-checker-form input[type="submit"]{
+        padding: 12px 13px;
+    }
+    .site-footer-3, .site-footer-3 .text-right{
+        text-align: center;
+    }
+    .footer-bottom-3{
+        font-size: 13px;
+    }
+    .footer-bottom-3 ul li a{
+        padding: 0 10px;
+    }
+    .absolute-gallery-1 {
+    position: relative;
+    top: auto;
+}
+    .tile-gallery.text-right{
+        text-align: center;
+    }
+    .service-section:before{
+        display: none;
+    }
+    .service-section:after{
+        width: 100%;
+    }
+    .service-section{
+        margin-top: 0;
+    }
+    .service-box-2{
+        min-height: auto;
+    }
+    .cta-area.theme-4{
+        height: 300px;
+        padding-top: 55px;
+    }
+    .testimonial-text{
+        padding: 10px;
+    }
+    .col-md-3.padding-0{
+        padding: 0 30px;
+    }
+    .cta-area.theme-5{
+        height: 220px;
+        font-size: 14px;
+    }
+    .cta-area{
+        padding-top: 35px
+    }
+    .cta-area.theme-4 h1, .cta-area.theme-5 h1, .broudcumb-area h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+    .cta-area.color{
+        height: 200px;
+    }
+    .cta-area.color h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+    .spacer-200{
+        max-height: 0px;
+    }
+    .about-traffic-area-4 .text-right{
+        text-align: center;
+    }
+    .author-box h4 {
+    margin-top: 20px;
+}
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
