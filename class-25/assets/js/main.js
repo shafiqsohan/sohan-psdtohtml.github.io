@@ -142,7 +142,7 @@
         $(".map").gmap3({
             address: "Dhaka, Bangladesh",
             zoom: 16,
-            mapTypeId: google.maps.ManTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
     }); 
