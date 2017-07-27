@@ -137,9 +137,16 @@
         $(".video-play-btn").magnificPopup({
             type: 'video'
         });
+        
+//----- gmap-3
+        $(".map").gmap3({
+            address: "Dhaka, Bangladesh",
+            zoom: 16,
+            mapTypeId: google.maps.ManTypeId.ROADMAP
+        });
 
     }); 
-//------ End Of Window Ready Function
+//======= End Of Window Ready Function
 
 //------ Start Of Window Load Function
     jQuery(window).load(function(){
