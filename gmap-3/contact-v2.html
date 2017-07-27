@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Traffic | Contact-v1</title>
+        <title>Traffic | Contact-v2</title>
 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -113,7 +113,7 @@
         </div>
 <!-- End Header area -->       
 <!-- Start Broudcumb area -->       
-        <div class="broudcumb-area broudcumb-bg-9 text-center">
+        <div class="broudcumb-area broudcumb-bg-11 text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
@@ -124,39 +124,61 @@
             </div>
         </div>
 <!-- END Broudcumb area --> 
-        <div class="traffic-content-block">
+        <div class="traffic-content-block contact-area comments-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 padding-0">
-                        <div class="shadow-img">
-                            <img src="./assets/img/contact-img.jpg" alt="">
+                    <div class="col-md-7">
+                        <div class="contact-info">
+                            <h3>Drop Us a line</h3>
+                            <p>Sifting through teaspoons of clay and sand scraped from the floors of caves, German researchers have to be managed to isolate ancient human DNA without turning up a single bone. </p>
                         </div>
                     </div>
-                    <div class="col-sm-7 col-sm-offset-1">
-                        <div class="contact-area comments-area">
-                            <div class="contact-info">
-                                <h3>Drop Us a line</h3>
-                                <p>Sifting through teaspoons of clay and sand scraped from the floors of caves, German researchers have to be managed to isolate ancient human DNA without turning up a single bone. </p>
-                            </div>
-                            <div class="contact-form comment-form">
-                                <form action="http://formspree.io/crazycafe.net@gmail.com" method="post">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Your Name">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="email" placeholder="Your Phone">
-                                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="contact-form comment-form">
+                            <form action="http://formspree.io/crazycafe.net@gmail.com" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" placeholder="Your Name">
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <input type="text" placeholder="Your Email">
-                                        </div>
+                                    <div class="col-md-6">
+                                        <input type="email" placeholder="Your Phone">
                                     </div>
-                                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write Your Massage"></textarea>
-                                    <input type="submit" value="Send Message"> 
-                                </form>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="text" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write Your Massage"></textarea>
+                                <input type="submit" value="Send Message"> 
+                            </form>
+                        </div>
+                    </div> 
+                    <div class="col-md-3 padding-0 col-md-offset-1">
+                        <div class="margin-only-mobile"></div>
+                        <div class="contact-line">
+                            <div class="contact-icon">
+                                <i class="zmdi zmdi-inbox"></i>
                             </div>
+                            <p>3584 Hickory Heights Drive ,Hanover <br/>MD 21076, USA</p>
+                        </div>
+                        <div class="contact-line">
+                            <div class="contact-icon">
+                                <i class="zmdi zmdi-phone"></i>
+                            </div>
+                            <p>Phone :  +44 443-919-7494 <br/> 
+                               Phone :  +44 443-919-7494
+                            </p>
+                        </div>
+                        <div class="contact-line">
+                            <div class="contact-icon">
+                                <i class="zmdi zmdi-globe"></i>
+                            </div>
+                            <p>Site :  Crazycafe.net <br/> 
+                               Fax :  +44 443-919-7494
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -164,58 +186,12 @@
         </div>
 
 <!-- Start Map Area -->
-
-        
-        <div class="traffic-content-block padding-top-0 map-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <div class="section-title">
-                            <h2>Google Map with JavaScript</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="googleMap" style="width:100%;height:400px;"></div>
-                        <script>
-                            function myMap() {
-                            var mapOptions = {
-                                center:new google.maps.LatLng(23.7580679,90.3844153),
-                                zoom:18,
-                                scrollwheel: false,
-                                styles:[
-                                    { elementType: 'geometry', stylers: [{color: '#f2f2f2'}]},
-                                    {
-                                        featureType: 'road',
-                                        elementType: 'geometry',
-                                        stylers: [{color: "#ffffff"}]
-                                    },
-                                    {
-                                        featureType: 'water',
-                                        elementType: 'geometry',
-                                        stylers: [{color: '#28ae5f'}]
-                                    },
-                                    {
-                                        featureType: 'road.highway',
-                                        elementType: 'labels.text.fill',
-                                        stylers: [{color: '#bebebe'}]
-                                    },
-                                    
-                                ],
-                            };
-                            var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-                            }
-                        </script>
-
+        <div class="map-area">
             
-                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrPgmShNZYr4Z7hQ0mvoDPk97eDf_TaO8&callback=myMap"></script>
-                        
-                    </div>
-                </div>
-            </div>
         </div>
 <!-- End Map Area -->
+
+<!-- START CTA AREA -->
         
   <!-- START Footer AREA -->
         <footer class="site-footer">
