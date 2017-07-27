@@ -54,7 +54,7 @@
           {"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},
           {"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}
         ],
-        {name: "shade Of Gray"}
+        {name: "RRF Institute"}
         );
 
     }); 
