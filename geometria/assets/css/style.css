@@ -95,11 +95,10 @@ a:hover { text-decoration: none }
     z-index: 98;
 }
 .show-menu{
-    position: absolute;
-    top: 40px;
-    left: 70px;
     cursor: pointer;
-    z-index: 100;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
 }
 .close-menu{
     position: absolute;
@@ -108,6 +107,7 @@ a:hover { text-decoration: none }
     padding: 30px;
     display: inline-block;
     cursor: pointer;
+    font-size: 20px;
 }
 .offvcanvus-menu .logo{
     position: absolute;
@@ -117,7 +117,7 @@ a:hover { text-decoration: none }
 .offvcanvus-menu{
     position: fixed;
     top: 0;
-    left: -310px;
+    right: -310px;
     width: 300px;
     height: 100%;
     background: #08294c;
@@ -129,15 +129,14 @@ a:hover { text-decoration: none }
     transition: .3s;
 }
 .offvcanvus-menu.active{
-    left: 0;
+    right: 0;
     opacity: 1;
     visibility: visible;
     z-index: 99;
 }
 .offvcanvus-menu ul{
-    margin-top: 150px;
+    margin-top: 110px;
     list-style: none;
-    margin-right: 30px;
 }
 .offvcanvus-menu ul li{
     display: block;
@@ -148,72 +147,94 @@ a:hover { text-decoration: none }
     color: #fff;
     padding: 10px 20px;
 }
+.hreader-area{
 
-            .geometria-hero-area{
-                height: 600px;
-                background-image: url(../img/hero-bg.jpg);
-                background-repeat: no-repeat;
-                width: 100%;
-                display: table;
-            }
-            .hero-cell{
-                display: table-cell;
-                vertical-align: middle;
-            }
-            .geometria-hero-area .boxed-btn-white{
-                margin-right: 10px;
-                background: none;
-                text-shadow: 0 5px 5px #ddd;
-                color: #0f81f8;
-                border: 1px solid #0f81f8;
-                box-shadow: 0 6px 5px #ddd;
-            }
-            
-            .geometria-hero-area .boxed-btn-white:hover{
-                background: #0f81f8;
-                text-shadow: none;
-            }
+}
+.logo, .show-menu{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    padding: 30px 0;
+}
+.show-menu{
+    right: 0;
+    left: auto;
+}
+.logo{
+    
+}
+.geometria-hero-area{
+    height: 600px;
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 1;
+}
+.hero-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.geometria-hero-area .boxed-btn, .geometria-hero-area .boxed-btn-white{
+    margin-top: 30px;
+}
+.geometria-hero-area .boxed-btn-white{
+    margin-right: 10px;
+    background: none;
+    text-shadow: 0 5px 5px #ddd;
+    color: #0f81f8;
+    border: 1px solid #0f81f8;
+    box-shadow: 0 6px 5px #ddd;
+}
+
+.geometria-hero-area .boxed-btn-white:hover{
+    background: #0f81f8;
+    text-shadow: none;
+}
 .hero-content{
     line-height: 2.4;
 }
 .hero-content h1{
     font-size: 50px;
 }
-            .boxed-btn{
-                color: #fff;
-                background: #0f81f8;
-                border: 1px solid #0f81f8;
-                box-shadow: 0 6px 5px #ddd;
-            }
-            .boxed-btn, .boxed-btn-white{
-                border-radius: 30px;
-                padding: 9px 0;
-                width: 150px;
-                display: inline-block;
-                text-align: center;
-                font-weight: 700;
-                text-transform: uppercase;
-                transition: .3s;   
-            }
-            .boxed-btn:hover{
-                color: #0f81f8;
-                background: none;
-                text-shadow: 0 5px 5px #ddd;
-            }
-            .boxed-btn-white{
-                margin-right: 10px;
-                background: #fff;
-                color: #0f81f8;
-                border: 1px solid #fff;
-            }
-            .boxed-btn-white:hover{
-                color: #fff;
-                background: none;
-                border: 1px solid #fff;
-            }
-            .geometria-content-block{
-                padding: 110px 0;
-            }
+.boxed-btn{
+    color: #fff;
+    background: #0f81f8;
+    border: 1px solid #0f81f8;
+    box-shadow: 0 6px 5px #ddd;
+}
+.boxed-btn, .boxed-btn-white{
+    border-radius: 30px;
+    padding: 9px 0;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .3s;   
+}
+.boxed-btn:hover{
+    color: #0f81f8;
+    background: none;
+    text-shadow: 0 5px 5px #ddd;
+}
+.boxed-btn-white{
+    margin-right: 10px;
+    background: #fff;
+    color: #0f81f8;
+    border: 1px solid #fff;
+}
+.boxed-btn-white:hover{
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+}
+.geometria-content-block{
+    padding: 110px 0;
+}
 .single-step{
     padding: 80px 35px;
     position: relative;
@@ -223,7 +244,7 @@ a:hover { text-decoration: none }
 }
 
 .geometria-vdo-area{
-    height: 560px;
+    
     padding: 70px 0;
     background: #0f81f8;
     color: #fff;
@@ -258,7 +279,7 @@ a:hover { text-decoration: none }
 }
 .partner-carousel{
     margin-left: -36px;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 .sinlge-partner{
     display: inline;
@@ -408,7 +429,7 @@ li.testimonial-autor.active>a, li.testimonial-autor.active>a:focus, li.testimoni
 }
 
 .sitefooter .footer-logo{
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .sitefooter ul{
     padding: 0;
