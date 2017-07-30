@@ -174,3 +174,14 @@ button[type="submit"]:hover {
 .site-footer.theme-4 .social-links a i{
     color: #fff;
 }
+.offcanvus-menu .social-links ul{
+    position: static;
+    padding: 0;
+}
+.offcanvus-menu .social-links ul li{
+    width: 48%;
+    display: inline-block;
+}
+.offcanvus-menu .social-links ul li a{
+    font-size: 15px;
+}

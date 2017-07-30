@@ -524,7 +524,7 @@ a:hover {
     text-transform: uppercase;
 }
 .offcanvus-menu ul {
-    padding: 20% 0;
+    padding-top: 15%;
     margin: 0;
     list-style: none;
     position: absolute;
