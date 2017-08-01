@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Traffic | Contact-v1</title>
-
+        
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png"> 
         <!-- Bootstrap Css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <!-- Material-icon Css -->
@@ -170,53 +172,7 @@
 
         
         <div class="traffic-content-block padding-top-0 map-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <div class="section-title">
-                            <h2>Google Map with JavaScript</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="googleMap" style="width:100%;height:400px;"></div>
-                        <script>
-                            function myMap() {
-                            var mapOptions = {
-                                center:new google.maps.LatLng(23.7580679,90.3844153),
-                                zoom:18,
-                                scrollwheel: false,
-                                styles:[
-                                    { elementType: 'geometry', stylers: [{color: '#f2f2f2'}]},
-                                    {
-                                        featureType: 'road',
-                                        elementType: 'geometry',
-                                        stylers: [{color: "#ffffff"}]
-                                    },
-                                    {
-                                        featureType: 'water',
-                                        elementType: 'geometry',
-                                        stylers: [{color: '#28ae5f'}]
-                                    },
-                                    {
-                                        featureType: 'road.highway',
-                                        elementType: 'labels.text.fill',
-                                        stylers: [{color: '#bebebe'}]
-                                    },
-                                    
-                                ],
-                            };
-                            var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-                            }
-                        </script>
 
-            
-                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrPgmShNZYr4Z7hQ0mvoDPk97eDf_TaO8&callback=myMap"></script>
-                        
-                    </div>
-                </div>
-            </div>
         </div>
 <!-- End Map Area -->
         
@@ -301,11 +257,22 @@
         </footer>
 <!-- END footer AREA -->
 
+        <!-- jQuery -->
         <script src="assets/js/jquery.min.js"></script>
+        
+        <!-- Bootstrap JS -->
         <script src="assets/js/bootstrap.min.js"></script>
+        
+        <!-- OwlCarousel JS -->
         <script src="assets/js/owl.carousel.min.js"></script>
+        
+        <!-- MagnificPopUp JS -->
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        
+        <!-- SlickNav JS -->
         <script src="assets/js/jquery.slicknav.min.js"></script>
+        
+        <!-- Main JS -->
         <script src="assets/js/main.js"></script>
     </body>
 </html>

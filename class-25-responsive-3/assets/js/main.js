@@ -40,6 +40,8 @@
             nav: false,
             autoplay: true,
             smartSpeed: 250,
+            mouseDrag: false,
+            touchDrag: false,
             responsive: {
                 0 : {
                     items : 1
@@ -60,6 +62,8 @@
             nav: false,
             autoplay: true,
             smartSpeed: 250,
+            mouseDrag: false,
+            touchDrag: false,
             responsive: {
                 0 : {
                     items : 1
@@ -83,6 +87,8 @@
             navText: ["<i class='zmdi zmdi-long-arrow-left'>", "<i class='zmdi zmdi-long-arrow-right'>"],
             animateIn: 'fadeIn',
             animateOut: 'fadeOut',
+            mouseDrag: false,
+            touchDrag: false,
             smartSpeed: 250
         });
     
@@ -93,6 +99,8 @@
             dots:true,
             nav: false,
             autoplay: true,
+            mouseDrag: false,
+            touchDrag: false,
             smartSpeed: 250
         });
         
@@ -103,6 +111,8 @@
             dots: true,
             nav: false,
             autoplay: true,
+            mouseDrag: false,
+            touchDrag: false,
             smartSpeed: 250
         });
         
@@ -112,6 +122,8 @@
             dots: false,
             nav: false,
             autoplay: true,
+            mouseDrag: false,
+            touchDrag: false,
             smartSpeed: 250,
             responsive: {
                 0 : {

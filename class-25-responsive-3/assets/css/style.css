@@ -52,7 +52,7 @@ This files contents are outlined below
     display: block;
     margin: 0 auto 15px;
 }
-a:focus {
+a:focus, input:focus, textarea:focus, button:focus {
     outline: 0 solid
 }
 img {
@@ -69,6 +69,7 @@ h6 {
     font-weight: 400;
     color: #373737;
 }
+ul{margin: 0; padding: 0;}
 html,
 body {
     height: 100%;
@@ -149,6 +150,7 @@ a:hover {
     border-radius: 50%;
     padding-left: 4px;
     margin-top: 15px;
+    display: inline-block;
 }
 .video-play-btn i {
     line-height: 60px;
@@ -329,9 +331,6 @@ a:hover {
 .slicknav_menu{
     display: none;
     background-color: transparent;
-}
-#mobile-menu-wrap{
-    margin-top: 25px;
 }
 .slicknav_btn{
     float: none;
@@ -526,7 +525,7 @@ a:hover {
     text-transform: uppercase;
 }
 .offcanvus-menu ul {
-    padding: 20% 0;
+    padding-top: 15%;
     margin: 0;
     list-style: none;
     position: absolute;

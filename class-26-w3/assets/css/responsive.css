@@ -87,6 +87,9 @@ Tablet & Mobile Layout: 768px.
 ===============================*/
 
 @media only screen and (max-width: 991px) {
+    body{
+        overflow-x: hidden;
+    }
     .traffic-content-block {
         padding: 75px 0;
     }
@@ -223,9 +226,6 @@ Tablet & Mobile Layout: 768px.
     .spacer-200 {
         max-height: 0px;
     }
-    .mobile-height-0 {
-        max-height: 0;
-    }
     .about-traffic-area-4 .text-right {
         text-align: center;
     }
@@ -277,6 +277,10 @@ Tablet & Mobile Layout: 768px.
     }
     .feature-area {
         padding: 0;
+        padding-top: 50px;
+    }
+    .feature-area h3{
+        text-align: center;
     }
     .slicknav_btn {
         border-radius: 0;
@@ -311,6 +315,9 @@ Tablet & Mobile Layout: 768px.
     }
     #mobile-menu-wrap {
         margin-top: 25px;
+    }
+    .single-team-box{
+        margin-bottom: 50px;
     }
 }
 /*======================= 
@@ -363,7 +370,56 @@ Mobile Layout: 320px.
     .broudcumb-area h1 {
         font-size: 25px;
     }
-}
+    .cta-area h2{
+        font-size: 20px;
+    }
+    .single-testimonial-item{
+        padding: 50px 0;
+    }
+    .tesimonial-content{
+        font-size: 16px;
+    }
+    .single-blog-item{
+        padding: 20px 10px;
+    }
+    .cta-area.color h2{
+        font-size: 20px;
+    }
+    .footer-bottom-3.text-right, .footer-bottom-3.text-left{
+        text-align: center;
+    }
+    .footer-bottom-3 ul{}
+    .footer-bottom-3 ul li{
+        display: block;
+    }
+    .homepage-hero-area-4 .single-slide-wrapper{
+        line-height: 1.5;
+        
+    }
+    .homepage-hero-area-4 .single-slide-wrapper h2 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-top: 80px;
+    }
+    .homepage-hero-area-4 .website-checker-form input{
+        margin-bottom: 10px;
+    }
+    .homepage-hero-area-4 .website-checker-form{
+        margin-top: 5px;
+    }
+    .cta-area.theme-5 h1{
+        font-size: 17px;
+    }
+    .single-testimonial-item{
+        padding: 0;
+    }
+    .col-md-5.padding-0 {
+        padding: 15px;
+    }
+    .mobile-height-0 {
+        max-height: 0;
+    }
+
 /*=========================
 Wide Mobile Layout: 480px. 
 ==========================*/
