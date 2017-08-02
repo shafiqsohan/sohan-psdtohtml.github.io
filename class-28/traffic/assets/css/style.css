@@ -1989,7 +1989,7 @@ ul#colors li{
     color: #fff;
 }
 body.boxed-layout{
-    height: 100%;
+    height: auto;
     background: url(../img/pattern.jpg) repeat;
     overflow-x: hidden;
 }
