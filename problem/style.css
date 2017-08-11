@@ -1,0 +1,177 @@
+/*
+Theme Name: Indusrty
+Theme URI: http://underscores.me/
+Author: Sohan Chowdhury
+Author URI: https://www.sohancse.com
+Description: My Wordpress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: industry
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Indusrty is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i,800,800i');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input[type=search]:focus, textarea{
+    outline: none;
+}
+.header-top-area{
+    padding: 20px 0;
+}
+.site-branding h1{
+    color: ;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+}
+.site-branding a{
+    color: #212628;
+    display: inline-block;
+    padding: 9px 0;
+   
+}
+.header-right-btn a{
+    display: inline-block;
+    background: #46be25;
+    position: relative;
+    padding: 10px 25px;
+    color: #fff;
+}
+.header-right-btn a:before, .header-right-btn a:after{
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 5px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .5;
+}
+.header-right-btn a:last-child:before, .header-right-btn a:last-child:after{
+    left: auto;
+    right: 5px;
+}
+.header-right-btn a:last-child{
+    background: #637177;
+}
+.header-right-btn a:after{
+    top: auto;
+    bottom: 5px;
+}
+.header-bottom-area{
+    background: #2a3338;
+}
+.header-bottom-area ul{
+    list-style: none;
+}
+.header-bottom-area li{
+    position: relative;
+    display: inline-block;
+}
+.header-bottom-area li:after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 6px;
+    height: 25px;
+    width: 1px;
+    background: #fff;
+    margin-top: -12.5px;
+}
+.header-bottom-area li:last-child:after{
+    display: none;
+}
+.header-bottom-area li a{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 20px;
+}
+.header-bottom-area li a:first-child{
+    padding-left: 0;
+}
+.header-search-form{
+    position: relative;
+    margin-top: 6px;
+    z-index: 1;
+}
+.header-search-form label{
+    width: 85%;
+}
+.header-search-form:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: -1;
+    opacity: .5;
+}
+.header-search-form input[type=submit]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    border: none;
+    background: none;
+}
+.header-search-form input[type=search]{
+    border: none;
+    background: none;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px;
+}
+.footer-top-area{
+    background-color: #262b2d;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.footer-top-area .widget{
+    width: 21%;
+    float: left;
+    padding: 80px 0;
+    color: #fff;
+}
+.footer-top-area .widget:nth-child(2){
+    width: 15%;
+}
+.footer-top-area h2.widget-title{
+    font-weight: 400;
+    font-size: 24px;
+}
+.footer-top-area, .footer-top-area p, .footer-top-area a, .site-info, .site-info a{
+    color: #999;
+}
+.footer-top-area p strong{
+    font-weight: 400;
+    color: #fff;
+}
+.site-info{
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+}

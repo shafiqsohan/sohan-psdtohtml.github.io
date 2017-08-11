@@ -53,17 +53,17 @@
             });
             //tihs code is for slider effect
             $(".hero_slider").on('translate.owl.carousel', function () {
-                $('.hero_text ol').removeClass('slideInLeft animated').hide();
+                $('.hero_text ol').removeClass('slideInDown animated').hide();
                 $('.hero_text h1').removeClass('zoomIn animated').hide();
                 $('.hero_text p').removeClass('zoomIn animated').hide();
-                $('.hero_text .hero_btn').removeClass('slideInUp animated').hide();
+                $('.hero_text .hero_btn').removeClass('fadeInUp animated').hide();
                 $('.hero_img').removeClass('slideInRight animated').hide();
             });
             $(".hero_slider").on('translated.owl.carousel', function () {
-                $('.owl-item.active .hero_text ol').addClass('slideInLeft animated').show();
+                $('.owl-item.active .hero_text ol').addClass('slideInDown animated').show();
                 $('.owl-item.active .hero_text h1').addClass('zoomIn animated').show();
                 $('.owl-item.active .hero_text p').addClass('zoomIn animated').show();
-                $('.owl-item.active .hero_text .hero_btn').addClass('slideInUp animated').show();
+                $('.owl-item.active .hero_text .hero_btn').addClass('fadeInUp animated').show();
                 $('.owl-item.active .hero_img').addClass('slideInRight animated').show();
             });
             

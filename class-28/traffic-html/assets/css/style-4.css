@@ -151,7 +151,7 @@ button[type="submit"]:hover {
 
 .single-pricing-box:hover,
 .single-pricing-box:hover .pricing-heading {
-    border-color: none;
+    border-color: #06d6a0;
 }
 .pricing-count {
     color: #06d6a0;

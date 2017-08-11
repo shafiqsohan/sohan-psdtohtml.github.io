@@ -1322,6 +1322,7 @@ button[type=submit]:hover {
 .owl-carousel .owl-item .testimonial-meta img {
     width: 64px;
     display: inline-block;
+    border-radius: 50%;
 }
 .testimonial-carousel .owl-dots {
     margin-top: 35px;
@@ -1631,18 +1632,21 @@ button[type=submit]:hover {
 /*========================
 | Pricing Area  CSS|
 =========================*/
-
 .pricing-area {
     text-align: center;
 }
-.home-1 .single-pricing-box{
-    padding: 35px;
-} 
+
 .single-pricing-box {
     border: 1px solid #f7f7f7;
-    padding: 35px 0px;
+    padding: 35px;
     -webkit-transition: .3s;
     transition: .3s;
+}
+.pricing-no-padding-border .single-pricing-box {
+    padding: 35px 0px;
+}
+.pricing-no-padding-border .single-pricing-box:hover {
+    border: 1px solid #f7f7f7;
 }
 .single-pricing-box:hover,
 .single-pricing-box:hover .pricing-heading {
@@ -1667,6 +1671,9 @@ button[type=submit]:hover {
     font-size: 50px;
     color: #ec4a71; 
     margin-bottom: 0;
+}
+.pricing-no-padding-border .pricing-count {
+    color: #22bffb; 
 }
 .pricing-content a.boxed-btn {
     padding: 12px 30px;

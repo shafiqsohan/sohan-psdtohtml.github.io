@@ -1,0 +1,126 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .header-top-area, .header-top-area .text-right, .logo{
+        text-align: center;
+    }
+    .logo{
+       padding: 0;
+       margin-bottom: 5px;
+    }
+    .logo h1{
+        margin-bottom: 0;
+    }
+    .mainmenu ul li a{
+        padding: 20px;
+    }
+    .single-slide-item{
+        text-align: center;
+       
+    }
+    .slide-item-tablecell p{
+         font-size: 17px;
+    }
+    .slide-item-tablecell h2{
+        font-size: 30px;
+    }
+    .single-small-service-item{
+        padding-bottom: 5px;
+        line-height: 20px;
+    }
+    .single-small-service-item h4{
+        font-size: 18px;
+    }
+    .factorian-cta-area{
+        text-align: center;
+    }
+    .factorian-cta-area .text-right{
+        text-align: center;
+    }
+    .factorian-cta-area .cta-btn{
+        margin-top: 20px;
+    }
+    .padding-left-30{
+        margin-top: 30px;
+    }
+    .footer-wid{
+        padding: 0;
+        padding-top: 30px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .factorian-content-block{
+        padding: 60px 0;
+    }
+    .header-top-area, .header-top-area .text-right{
+        text-align: center;
+    }
+    .logo{
+        padding: 0;
+    }
+    .logo h1{
+        margin-bottom: 0;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .single-slide-item{
+        text-align: center;
+    }
+    .homepage-slides .owl-nav div{
+        bottom: 10px;
+        top: auto;
+        left: 50%;
+        margin-left: -40px;
+    }
+    .homepage-slides .owl-nav .owl-next{
+     left: 65%;
+    }
+    .single-service-item{
+        margin-bottom: 40px;
+    }
+    .slide-item-tablecell p{
+         font-size: 17px;
+    }
+    .slide-item-tablecell h2{
+        font-size: 30px;
+    }
+    .single-small-service-item{
+        padding-bottom: 5px;
+        line-height: 20px;
+    }
+    .single-small-service-item h4{
+        font-size: 18px;
+    }
+    .factorian-cta-area{
+        text-align: center;
+    }
+    .factorian-cta-area .text-right{
+        text-align: center;
+    }
+    .factorian-cta-area .cta-btn{
+        margin-top: 20px;
+    }
+    .padding-left-30{
+        margin-top: 30px;
+    }
+    .who-we-are-text{
+        margin: 30px 0;
+    }
+    .footer-wid{
+        padding: 0;
+        padding-top: 30px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}
