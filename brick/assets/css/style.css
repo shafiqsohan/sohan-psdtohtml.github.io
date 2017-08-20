@@ -1,6 +1,6 @@
 /* Base CSS */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300i,400,400i,500,500i,700,700i|Source+Sans+Pro:300,300i,400,400i,600,600i,700');
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300i,400,400i,500,500i,700,700i|Source+Sans+Pro:300,300i,400,400i,600,600i,700');
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -102,6 +102,8 @@ a:hover {
     color: #333;
 }
 .header-contact li p {
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .header-contact li:hover p {
@@ -114,6 +116,8 @@ a:hover {
     display: inline-block;
     margin: 0px 18px;
     padding: 25px 0px 5px 0px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .header-contact p span {
@@ -124,6 +128,8 @@ a:hover {
     padding: 10px 13px;
     border: 1px solid #999;
     border-radius: 50%;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .header-contact p {
@@ -145,6 +151,8 @@ a:hover {
     padding: 5px;
     padding-top: 3px;
     font-size: 16px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .header-social-link a:hover {
@@ -187,6 +195,8 @@ a:hover {
     height: 5px;
     width: 0%;
     background: #ffcc33;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .mainmenu ul li:hover:after {
@@ -196,6 +206,8 @@ a:hover {
     display: inline-block;
     padding: 11px 30px;
     text-transform: uppercase;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .mainmenu ul li:hover a {
@@ -239,6 +251,8 @@ a:hover {
     height: 50px;
     width: 50px;
     opacity: .6;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .homepage-slider .owl-nav div:hover {
@@ -337,7 +351,11 @@ a.service-readmore-btn {
     width: 33%;
     background: #333;
     z-index: -1;
+    -webkit-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
     transform: skewX(-30deg);
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 .service-readmore-btn:hover:before {
@@ -416,6 +434,8 @@ a.service-readmore-btn {
     background: #f2f2f2;
     opacity: 0;
     visibility: hidden;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .mix-change li:hover ul {
@@ -607,6 +627,8 @@ a.blog-readmore-btn {
     text-transform: uppercase;
     display: block;
     padding: 2px 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .footer-top-area ul li:hover a {
@@ -633,12 +655,70 @@ a.blog-readmore-btn {
     display: block;
     color: #999;
     padding: 0px 10px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .footer-bottom-area ul li:hover a {
     color: #ffcc33;
 }
-/*Scroll Top Start*/
+/*====================================
+- Preloader CSS 
+=====================================*/
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    margin: 100px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px)
+    }
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+    }
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+    }
+}
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    }
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    }
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+.preloader-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #f7b349;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+}
+.preloader-wrap .spinner {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*==================================
+ - Scroll Top Start
+===================================*/
 
 .gotoup {
     display: none;

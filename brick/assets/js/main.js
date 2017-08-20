@@ -9,7 +9,7 @@
         
         $('[data-toggle="tooltip"]').tooltip();
         
-        //------ Homepage Slider
+        //======= Homepage Slider =======
         $(".homepage-slider").owlCarousel({
             items: 1,
             loop: true,
@@ -20,7 +20,7 @@
             navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
         });
         
-        //------ Homepage Slider text animation
+        //======= Homepage Slider text animation =======
         $(".homepage-slider").on("translate.owl.carousel",function(){
             $(".single-slide-item h1").removeClass("animated fadeInDown").css("opacity", "0");
             $(".single-slide-item p").removeClass("animated fadeInUp").css("opacity", "0");
@@ -32,7 +32,7 @@
             $(".single-slide-item p").addClass("animated fadeInUp").css("opacity", "1");
         });
         
-        //------ Branding-partner Slider
+        //======= Branding-partner Slider =======
         $(".partner-slider").owlCarousel({
             margin: 100,
             loop: true,
@@ -55,18 +55,18 @@
             }
         });
         
-        //------ SlickNav-MObile-menu
+        //======= SlickNav-MObile-menu =======
         $("#mobile-menu").slicknav({
             prependTo: '#mobile-menu-wrap'
         });
         
-        //------ Mix It Up Plugin
+        //======= Mix It Up Plugin ======= 
         $(".items").mixItUp();
         
-        //------ WOW Plugin
+        //======= WOW Plugin =======
         new WOW().init();
 
-        //------ Window-Scroll funtion
+        //======= Window-Scroll funtion =======
         $(window).scroll(function(){
             if($(this).scrollTop()>400){
                 $(".gotoup").fadeIn();
@@ -76,21 +76,18 @@
             }
         });
         
-        //------ Scroll When click
+        //======= Scroll When click =======
          $(".gotoup").on('click', function(){
                 $("html, body").animate({scrollTop:0}, 800);
             });
 
+    }); //=========== Windowf Ready Function End ============
 
-        
-
-
-    });
-
-
+    //======= Window Load Function ========
     jQuery(window).load(function(){
         
-        jQuery(".preloader-wrap").fadeOut(5000);
+        $(".preloader-wrap").fadeOut(5000);
+        $(".spinner").fadeOut(3000);
         
     });
 
