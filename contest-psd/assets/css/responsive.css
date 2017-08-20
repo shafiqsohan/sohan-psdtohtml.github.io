@@ -1,0 +1,239 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .section-padding{
+        padding: 40px 0;
+    }
+    .header-top-area{
+        height: 85px;
+    }
+    .header-contact li{
+        margin: 0 5px;
+    }
+    .header-top-left{
+        font-size: 14px;
+    }
+    .why-choose-us-area:before{
+        width: 53%;
+    }
+    .service-readmore-btn:before{
+        width: 45%;
+    }
+    .items .mix{
+        margin: 3px;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .section-padding{
+        padding: 30px 0;
+    }
+    .logo{
+       
+    }
+    .logo a{
+       
+    }
+    .mainmenu{
+        text-align: center;
+    }
+    .wellcome-text{
+        padding: 25px 0;
+    }
+    .header-top-area{
+        height: 150px;
+    }
+    .header-top-right{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .hero-wrapper{
+        height: 550px;
+    }
+    .homepage-slider{
+        padding-top: 250px;
+    }
+    .mainmenu ul li a{
+        padding: 11px 20px;
+    }
+    .wellcome-text h1{
+        font-size: 32px;
+    }
+    .single-service{
+        margin-bottom: 40px;
+    }
+    .service-box-img img{
+        width: 100%;
+    }
+    a.service-readmore-btn{
+        margin-top: 10px;
+    }
+    .why-choose-us-area:before{
+        width: 100%;
+    }
+    .footer-logo {
+        margin-bottom: 8px;
+    }
+    .cta-area p {
+    font-size: 18px;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .section-padding{
+        padding: 20px 0;
+    }
+    .header-top-area{
+        height: 210px;
+        position: static;
+    }
+    .header-top-right{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .header-bottom-area{
+        
+    }
+    .logo{
+        margin-bottom: 15px;
+    }
+    .logo a{
+        padding: 14px;
+        width: 100%;
+    }
+    .header-social-link a{
+        padding: 3px 6px;
+    }
+    .shopping-cart a, .select-language a{
+        padding: 4px 8px;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+    .wellcome-text{
+        padding: 20px 0;
+    }
+    .hero-wrapper{
+        height: auto;
+        padding: 90px 0;
+        padding-top: 10px;
+    }
+    .homepage-slider{
+        padding-top: 250px;
+    }
+    .single-slide-item{
+        width: 100%;
+        padding: 35px 25px
+    }
+    .single-slide-item h1{
+        font-size: 40px;
+    }
+    .single-slide-item h1 span{
+        font-size: 22px;
+    }
+    .mainmenu ul li a{
+        padding: 11px 20px;
+    }
+    .wellcome-text h1{
+        font-size: 24px;
+    }
+    .single-service{
+        margin-bottom: 40px;
+    }
+    .service-box-img img{
+        width: 100%;
+    }
+    a.service-readmore-btn{
+        margin-top: 10px;
+    }
+    a.service-readmore-btn:before{
+        width: 50%;
+    }
+    .why-choose-us-area:before{
+        width: 100%;
+    }
+    .why-choose h3{
+        font-size: 17px;
+    }
+    .footer-logo {
+        margin-bottom: 8px;
+    }
+    .cta-area p {
+    font-size: 14px;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .padding-left-right{
+        padding: 0;
+    }
+    .homepage-slider .owl-nav div{
+        bottom: -70px;
+        left: 50%;
+        margin-left: -52px;
+    }
+    .homepage-slider .owl-nav .owl-next {
+        left: auto;
+        right: 50%;
+        margin-right: -52px;
+    }
+    .footer-title{
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .footer-bottom-area{
+        text-align: center;
+    }
+    .footer-bottom-menu.text-right{
+        text-align: center;
+    }
+    .footer-bottom-area ul li a{
+        padding: 0px 6px;
+        padding-top: 10px;
+    }
+    .header-contact li{
+        padding: 0;
+        margin: 0;
+    }
+    .header-top-left{
+        font-size: 13px;
+    }
+    .header-top-right div{
+        margin-right: 5px;
+    }
+    .items .mix{
+        width: 44%;
+    }
+    .slicknav_nav{
+        top: -164px;
+    }
+    .slicknav_btn{
+        top: -213px;
+    }
+    .header-bottom-area{
+        background: #b5b5b5;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .header-contact li{
+        padding-right: 50px
+    }
+    .header-top-area{
+        height: 160px;
+    }
+    .items .mix{
+        width: 30%;
+    }
+    .slicknav_nav{
+        top: -114px;
+    }
+    .slicknav_btn{
+        top: -163px;
+    }
+    a.service-readmore-btn:before{
+        width: 33%;
+    }
+}
